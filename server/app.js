@@ -14,7 +14,7 @@ var usersRouter = require('./routes/users');
 
 // DB연결
 const { Sequelize } = require('sequelize');
-const sequelize = new Sequelize('washon', 'root', 'tpfla9876', {
+const sequelize = new Sequelize('washon', 'root', '', {
   host: 'localhost',
   dialect: "mysql",
   logging: false
